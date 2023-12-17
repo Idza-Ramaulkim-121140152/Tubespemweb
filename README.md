@@ -3,7 +3,7 @@
 Nama  : Idza Ramaulkim
 NIM   : 121140152
 Kelas : RB
-
+# 2.	Membuat Table
 # Penjelasan Mengenai Alur Website 
 Website saya ini tidak menggunakan hosting, tetapi menggunakan VPS (Virtual Private Server) yang kemudian di konfigurasikan di Cloudflare menggunakan fitur Tunnles Domain, saya menggunakan Domain yang saya beli di NiagaHoster yang juga di konfigurasikan di panel NiagaHoster agar terhubung dengan Cloudflare. Disisi VPS Web saya menggunakan webserver disini saya menggunakan XAMPP sebagai webserver localhost.
 Saya juga melampirkan ilustrasi untuk menjelaskan alur website saya (ilustrasi.jpg)
@@ -53,20 +53,20 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
-## 2. Menambahkan data menggunakan code SQL
+## 3. Menambahkan data menggunakan code SQL
 INSERT INTO `pariwisata` (`id`, `nama`, `detail`, `alamat`, `jenis`, `fasilitas`, `rating`, `foto`, `jenis_browser`, `alamat_ip`) VALUES
 (34, 'Pulau Weh', 'Tempat wisata yang terkenal di Pulau Sumatra yang pertama adalah Pulau Weh. Pulau Weh merupakan pulau yang terbentuk secara vulkanik. Meskipun letaknya di tepi laut, Aladiners masih dapat menemukan batu-batu khas vulkanik. Hal tersebut juga mempengaruhi kesuburan tanahnya.', 'Aceh', 'Wisata Alam', 'Tempat Parkir, Restoran', 3, 'img/SABANG_HASBI-AZHAR-3_800x530.jpg', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', '::1');
 
 INSERT INTO `users` (`id`, `username`, `password`) VALUES
 (1, 'Idza_Ramaulkim', '121140152');
 
-## 3.  Menampilkan data menggunakan SQL
+## 4.  Menampilkan data menggunakan SQL
 SELECT * FROM `pariwisata`
 SELECT * FROM `users`
 
-## 4. Mengedit data dengan SQL
+## 5. Mengedit data dengan SQL
 UPDATE `pariwisata` SET `alamat` = 'Banda Aceh' WHERE `pariwisata`.`id` = 34
 
-## 5. Menghapus data dengan SQL
+## 6. Menghapus data dengan SQL
 DELETE FROM pariwisata WHERE `pariwisata`.`id` = 34
 
