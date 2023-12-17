@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/homeadmin.css">
+    <title>Page Admin</title>
+</head>
+<body>
+    <header>
+        <h1 style="margin-top: 50px;">Edit Data Pariwisata</h1>
+    </header>
+
+    <div class="container">
+        <form id="pariwisataForm" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="nama">Nama Tempat:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-group">
+                <label for="detail">Detail Tempat:</label>
+                <input type="text" id="detail" name="detail" required>
+            </div>
+
+            <div class="form-group">
+                <label for="alamat">Alamat:</label>
+                <input type="text" id="alamat" name="alamat" required>
+            </div>
+
+            <div class="form-group">
+                <label for="jenis">Jenis:</label>
+                <select id="jenis" name="jenis">
+                    <option value="Wisata Alam">Wisata Alam</option>
+                    <option value="Wisata Kuliner">Wisata Kuliner</option>
+                    <option value="Wisata Sejarah">Wisata Sejarah</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="checkbox">Fasilitas:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="wifi" name="wifi"> WiFi
+                    <input type="checkbox" id="restoran" name="restoran"> Restoran
+                    <input type="checkbox" id="parkir" name="parkir"> Tempat Parkir
+                    <input type="checkbox" id="tidak_ada" name="tidak_ada"> Tidak Ada
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="rating">Rating:</label>
+                <div class="radio-group">
+                    <input type="radio" id="rating1" name="rating" value="1"> 1
+                    <input type="radio" id="rating2" name="rating" value="2"> 2
+                    <input type="radio" id="rating3" name="rating" value="3"> 3
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="foto">Foto:</label>
+                <input type="file" id="foto" name="foto" accept="image/*">
+            </div>
+
+            <div class="button-group">
+                <button type="reset" id="resetFormButton">Reset Form</button>
+                <button type="submit" id="tambahDataButton">Tambah Data</button>
+            </div>
+        </form>
+
+        <table id="tabelPariwisata">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Detail</th>
+                    <th>Alamat</th>
+                    <th>Jenis</th>
+                    <th>Fasilitas</th>
+                    <th>Rating</th>
+                    <th>Foto</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <a href="index.html"><button>Home</button></a>
+    </div>
+
+    <script src="js/homeadmin.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <title>Pariwisata Sumatera @Idza Ramaulkim</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Pariwisata di Sumatera</h1>
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"">Sumatera adalah pulau yang menyimpan begitu banyak wisata yang tersembunyi</h3>
+        </div>
+        <div class="header-button">
+            <button id="adminButton">Admin</button>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <img src="source/wi.png" style="height: 300px;" alt="Wonderful  Indonesia">
+        <p style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Selamat datang di Sumatera, pulau serba indah yang menawarkan pengalaman pariwisata tak terlupakan. Dengan alam yang memukau, mulai dari gunung hingga pantai, Sumatera memikat hati para petualang. Keberagaman budayanya, situs bersejarah, dan kuliner khasnya, seperti rendang dan sate padang, menambah daya tarik pulau ini. Temukan keajaiban Sumatera dalam petualangan Anda, dan nikmati keindahan alam serta kekayaan budaya yang luar biasa!</p>
+        <table id="tabelPariwisata">
+            <tbody style="width: 30%;">
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        var adminButton = document.getElementById('adminButton');
+        adminButton.addEventListener('click', function() {
+            window.location.href = 'login.html';
+        });
+    </script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
