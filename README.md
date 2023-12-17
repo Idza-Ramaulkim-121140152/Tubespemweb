@@ -31,7 +31,7 @@ https://tubeswebidza.ramaulkimtech.site/phpmyadmin/
 
 ## Langkah-langkah dalam membuat basis data dengan code SQL
 ### 1.	Membuat database
-CREATE DATABASE webrizka;
+CREATE DATABASE tubesweb;
 
 ### 2.	Membuat Table
 CREATE TABLE `pariwisata` (
