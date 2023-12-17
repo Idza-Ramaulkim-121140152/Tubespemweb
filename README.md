@@ -1,17 +1,4 @@
 # TUGAS BESAR UAS PEMWEB
-# Biodata
-# Penjelasan Mengenai Alur Website 
-# Admin
-# Instruksi Menggunakan
-# Website Impelemtasi
-# Website Database PHPMYADMIN
-# Langkah-langkah dalam membuat basis data dengan code SQL
-## 1.	Membuat database
-## 2.	Membuat Table
-## 3. Menambahkan data menggunakan code SQL
-## 4.  Menampilkan data menggunakan SQL
-## 5. Mengedit data dengan SQL
-
 
 ## Biodata
 Nama  : Idza Ramaulkim
