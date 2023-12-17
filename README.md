@@ -10,8 +10,8 @@ Website saya ini tidak menggunakan hosting, tetapi menggunakan VPS (Virtual Priv
 Saya juga melampirkan ilustrasi untuk menjelaskan alur website saya (ilustrasi.jpg)
 
 ## Admin
-Username : Idza_Ramaulkim
-Password : 121140152
+#### Username : Idza_Ramaulkim
+#### Password : 121140152
 
 HARAP PERHATIKAN INI UNTUK LOGIN DAN EDIT DATA
 
